@@ -68,3 +68,30 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Module not found: Error: Can't resolve 'web-vitals' in '/app/src'
+    Step 1: Go to "src" folder then in "index.js"
+    Step 2: Delete import reportWebVitals from './reportWebVitals';, reportWebVitals(); 
+
+    this two line of code from there and you are ready to go.
+
+# Netflix GPT
+    - Create React App
+    - Configure TailwindCss
+
+# Features
+ - Login/ Signup
+   - Signin /Signup form
+   - Redirect to Browse page
+ - Browse (After Authentication)
+   - Header
+   - Main Movie
+     - Trailer in Background
+     - Title $ Description
+     - Movie Suggestions
+       - Movie List
+ 
+ - NetflixGPT
+  - Search Bar
+  - Movie Suggestions 
+
