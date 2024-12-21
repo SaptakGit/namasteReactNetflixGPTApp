@@ -81,6 +81,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - Header
     - Login Form
     - Signup Form
+    - Form Validation
+    - useRef Hook
+    - Firebase Setup
+    - Deployinf our App to Production
+    - Create Sign Up User Account
 
 # Features
  - Login/ Signup
@@ -99,4 +104,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - Movie Suggestions 
 
   ** For big forms use a Library like Forming
+
 
