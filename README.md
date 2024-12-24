@@ -90,6 +90,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - Created Redux Store with userSlice (**onAuthStateChange)
     - Implemented Sign Out
     - Update Profile Call
+    - BugFix: Sign Up user Display Name and Profile picture update
+    - BugFix: If the user is not logged in the redirect to Login Page and Vice-versa
+    - Unsubscribed to the onAuthStateChange callback
+    - Add Hardcoded values to the Constants File
+    - Register TMDB API with VPN & Create an App & Get Access Token
+    - Get Data from TMDB Now Playing movies list API
+    - Custom Hook for Noe Playing Movies
+    - Create movieSlice
+    - Update Store with movies Data
+    - Planning for MainCointainer & SecondaryCointainer
+    - Fetch Data for trailer Video
+    - Update Stoe eith Trailer Video Data
+    - Embeded the Youtube video and make it autoplay and mute
+    - Added tailwind classes to make main Cointainer look Awesome.
 
 
 # Features
@@ -109,5 +123,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - Movie Suggestions 
 
   ** For big forms use a Library like Forming
+
+
+  1.52
+  Saptak#CDR@19
 
 
