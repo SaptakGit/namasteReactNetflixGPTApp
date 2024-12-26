@@ -104,6 +104,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - Update Stoe eith Trailer Video Data
     - Embeded the Youtube video and make it autoplay and mute
     - Added tailwind classes to make main Cointainer look Awesome.
+    - Build Secondary Component
+    - Build Movie List
+    - Build Movie Card
+    - TMDB Image CDN URL
+    - Made the browse page good with Tailwind CSS
+    - usePopularMovies custom hook
 
 
 # Features
@@ -125,7 +131,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   ** For big forms use a Library like Forming
 
 
-  1.52
-  Saptak#CDR@19
 
 
