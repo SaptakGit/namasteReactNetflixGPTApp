@@ -8,7 +8,7 @@ export const API_OPTIONS = {
     method: 'GET',
     headers: {
       accept: 'application/json',
-      Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3Njk3M2FmMjg2ZjYxOTNiNDVjM2VmZDEzMjRmNzQxOSIsIm5iZiI6MTczNDgzNDMwNS43MDg5OTk5LCJzdWIiOiI2NzY3Nzg4MWEwYzMwMDI4M2M3NDg2YjkiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.lsh7nTyz9mpKWm2UyjsU5pHAZBxjnF1EET1xE9F_R60'
+      Authorization: 'Bearer '+process.env.REACT_APP_TMDB_KEY
     }
   };
 
@@ -20,4 +20,8 @@ export const SUPPORTED_LANGUAGES = [
     { identifier:"en", name:"English" },
     { identifier:"hindi", name:"Hindi" },
     { identifier:"spanish", name:"Spanish" },
-  ]
+  ];
+
+export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+
+export const NO_IMAGE_FOUND = "https://image.shutterstock.com/image-vector/sad-ghost-using-smartphone-vector-260nw-2532532723.jpg";
