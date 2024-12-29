@@ -113,7 +113,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
     - GPT Search Page
     - GPT Search Bar
     - Multi-Language Feature in Our App(VVI)
-    - Integrate GPT API's
+    - Get Open AI Api Key
+    - Gpt Search API Call
+    - fetched gptMovieSuggestions from TMDB
+    - created gptSlice added data
+    - Reused Movie List Component to make movie suggestion cointainer
+    - Memoization
+    - Added .env file
+    - Adding .env fileto gitignore
+    - Made our Site Responsive
 
 
 # Features
@@ -133,6 +141,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - Movie Suggestions 
 
   ** For big forms use a Library like Forming
-
-
 

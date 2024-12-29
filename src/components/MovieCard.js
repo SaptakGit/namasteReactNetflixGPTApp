@@ -4,7 +4,7 @@ const MovieCard = ({posterPath}) => {
   
   return (
        <img 
-            className="pr-4 w-44"
+            className="pr-4 w-36 md:w-44"
             alt="movie-list-img"
             src = {posterPath ? IMG_CDN_URL + posterPath : NO_IMAGE_FOUND} 
         />
